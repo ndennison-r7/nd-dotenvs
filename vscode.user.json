@@ -1,0 +1,99 @@
+{
+  "workbench.editor.enablePreview": false,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "workbench.colorTheme": "Everset",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "files.autoSave": "afterDelay",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.options": {
+    "env": {
+      "browser": true,
+      "jest/globals": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": "ESNext",
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "no-debugger": "off"
+    }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "todo-tree.tree.showScanModeButton": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.views.commits.showBranchComparison": false,
+  "workbench.sideBar.location": "left",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "liveshare.authenticationProvider": "GitHub",
+  "liveshare.presence": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.scrollback": 50000,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "terminal.integrated.profiles.osx": {
+    "/bin/bash (migrated)": {
+      "path": "/bin/bash",
+      "args": ["-l"]
+    }
+  },
+  "codesnap.backgroundColor": "#ABEBC6",
+  "terminal.integrated.enableShellIntegration": true,
+  "editor.fontSize": 11.5,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "editor.foldingMaximumRegions": 50000,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openDiffOnClick": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "http.proxySupport": "off",
+  "errorLens.excludeBySource": [
+    "eslint(@typescript-eslint/indent)"
+  ],
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative"
+}
+
